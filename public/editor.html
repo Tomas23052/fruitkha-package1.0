@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Editor</title>
+
+    <link rel="stylesheet" href="assets/css/editor.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+
+
+    <script language="JavaScript">
+        <!--hide
+        var password;
+        var pass="123";
+        password= prompt('Mete a tua senha', '');
+        if(password == pass)
+        alert('Senha correta, clica no OK para entrar.');
+        else{
+            alert('Senha incorreta, tenta outra vez.');
+            window.location="https://b1e2-93-108-179-75.eu.ngrok.io/fruitkha/index.html"
+        }	
+        //-->
+        </script>
+</head>
+<body>
+
+
+    
+    <div class="blog">
+        
+        <textarea type="text" id="title" class="title" placeholder="Título da Notícia..."></textarea>
+        <textarea type="text" id="description"class="article" placeholder="Escreve aqui..."></textarea>
+        <textarea type="text" id="image_url"class ="image" placeholder="Link da Imagem"></textarea>
+    </div>
+
+    <div class="blog-options">
+        <button id="publish" class="btn dark publish-btn">publish</button>
+        
+        <button onclick="location.href='allblogs.html'" class="btn grey upload-btn">Ver todos os artigos</button>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="/public/assets/js/firebase.js"></script>
+    <script src="/public/assets/js/editor.js"></script>
+
+</body>
+</html>
