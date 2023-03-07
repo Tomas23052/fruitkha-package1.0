@@ -36,12 +36,19 @@
 	ul.sub-menu li a {
 	    padding: 7px 10px;
 	}
+	.single-product-item{
+		margin:auto !important;
+	}
 
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
 	.hero-text h1 {
 	    font-size: 40px;
+	}
+
+	.single-product-item{
+		margin:auto !important;
 	}
 	.footer-box {
 	    margin-bottom: 40px;
@@ -57,6 +64,7 @@
 	}
 	.single-team-item {
 	    margin-bottom: 30px;
+		
 	}
 	table.cart-table {
 	    margin-bottom: 50px;
@@ -81,7 +89,7 @@
 	.hero-area div.hero-form {
 		width: 325px;
 		top: 30%;
-	}
+	}single-
 
 	.comment-template form p input[type=text], 
 	.comment-template form p input[type=email] {
@@ -557,6 +565,9 @@
 	    z-index: 999;
 	    color: #fff;
 	}
+	.single-product-item{
+		margin:auto !important;
+	}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -576,5 +587,8 @@
 	    margin-left: 0;
 	    margin-top: 15px;
 	    display: block;
+	}
+	.single-product-item{
+		margin:auto !important;
 	}
 }

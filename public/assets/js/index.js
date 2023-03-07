@@ -8,7 +8,7 @@ function fetchBlogs3(){
 const blogC = document.getElementById("blogs3");
 function renderBlog3(blogs3){
 blogC.innerHTML=""
-var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',	'November', 'December'];
+var months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro',	'Novembro', 'Dezembro'];
 
     blogs3.data.forEach(function(blog3){
         const date = new Date(blog3.__createdtime__)
