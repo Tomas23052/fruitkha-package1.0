@@ -35,6 +35,7 @@ function renderBlog(blogs){
         const date = new Date(blog.__createdtime__)
         document.getElementById("title").innerHTML = blog.title;
         document.getElementById("description").innerHTML = blog.description
+        document.getElementById("titled").innerHTML = "Notícia sobre " + blog.title;
         document.getElementById("image_url").style.backgroundImage = `url('${blog.image_url}')`
         document.getElementById("date").innerHTML = `<span id="date" class="date"><i class="fas fa-calendar"></i>${date.getDate() + ' ' + months[date.getMonth()] + ', ' + date.getFullYear()}</span>`
 
