@@ -1,0 +1,42 @@
+function fetchBlogs3(){
+    fetch('https://apidiogo-production.up.railway.app/blogs/few3')
+    .then(response => response.json())
+    .then(blogs3 => renderBlog3(blogs3))
+}
+
+
+const blogC = document.getElementById("blogs3");
+function renderBlog3(blogs3){
+blogC.innerHTML=""
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',	'November', 'December'];
+
+    blogs3.data.forEach(function(blog3){
+        const date = new Date(blog3.__createdtime__)
+        blogC.innerHTML +=`
+        <div class="col-lg-4 col-md-6">
+        <div class="single-latest-news">
+            <a onclick="getID('${blog3.id}')"href="single-news.html"><div id="${blog3.id}" class="latest-news-bg news-bg-1" style="background-image: url('${blog3.image_url}');"></div></a>
+            <div class="news-text-box">
+                <h3><a href="single-news.html">${blog3.title}.</a></h3>
+                <p class="blog-meta">
+                    <span class="date"><i class="fas fa-calendar"></i> ${date.getDate() + ' ' + months[date.getMonth()] + ', ' + date.getFullYear()}</span>
+                </p>
+                <p class="excerpt">${descBlog(blog3.description)}</p>
+                <a href="single-news.html" id="readmore" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+        </div>`
+        
+    })
+}
+
+
+
+function descBlog(blog_string){
+    var string = blog_string;
+    if(string.length > 150){
+        return string.substring(0,150) + "..."
+    }
+    return string;
+}
+
+fetchBlogs3();

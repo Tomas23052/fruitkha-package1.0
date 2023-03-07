@@ -30,10 +30,13 @@ blogs5.data.forEach(function(blog5){
 }
 
 function renderBlog(blogs){
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',	'November', 'December'];
     blogs.data.forEach(function(blog){
+        const date = new Date(blog.__createdtime__)
         document.getElementById("title").innerHTML = blog.title;
         document.getElementById("description").innerHTML = blog.description
         document.getElementById("image_url").style.backgroundImage = `url('${blog.image_url}')`
+        document.getElementById("date").innerHTML = `<span id="date" class="date"><i class="fas fa-calendar"></i>${date.getDate() + ' ' + months[date.getMonth()] + ', ' + date.getFullYear()}</span>`
 
     });
     

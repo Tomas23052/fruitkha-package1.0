@@ -29,7 +29,7 @@ const btn = document.getElementById("publish");
 
 btn.addEventListener("click", function handleChange(event){
     createBlog();
- 
+    alert("Artigo Publicado!")
      
  });
 
