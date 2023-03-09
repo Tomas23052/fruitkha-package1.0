@@ -317,8 +317,15 @@ p:last-child {
   }
 }
 
+.text-size p {
+  font-size: 20px;
+}
+.text-size h2{
+  font-size: 35px;
+}
+
 .mt-150 {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 @media only screen and (max-width: 767.96px) {
