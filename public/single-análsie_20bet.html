@@ -33,7 +33,11 @@
 
 </head>
 <body>
-	
+
+	<div style="display:none; position: fixed; z-index:999; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8);" onclick="this.style.display = 'none'" id="overlay">
+		<img style="height: 100%; max-height: 70vh; object-fit: contain; position: inherit; top:50%; left:50%; transform: translate(-50%,-50%);" id="imgOverlay" src="" alt="">
+	</div>
+
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -51,7 +55,7 @@
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="index.html">
-								<img src="assets/img/logo.png" alt="">
+								<img src="assets/img/iconT.png" alt="">
 							</a>
 						</div>
 						<!-- logo -->
@@ -59,48 +63,15 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="#">Home</a>
-									<ul class="sub-menu">
-										<li><a href="index.html">Static Home</a></li>
-										<li><a href="index_2.html">Slider Home</a></li>
-									</ul>
+								<li class="current-list-item"><a href="index.html">Casas de apostas</a>
 								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-										<li><a href="shop.html">Shop</a></li>
-									</ul>
+								
+
+								<li><a href="news.html">Notícias</a>
 								</li>
-								<li><a href="news.html">News</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
-									<ul class="sub-menu">
-										<li><a href="shop.html">Shop</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
-										<li><a href="cart.html">Cart</a></li>
-									</ul>
-								</li>
-								<li>
-									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-									</div>
-								</li>
+								<a></a>
 							</ul>
 						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
 						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
@@ -129,7 +100,19 @@
 	</div>
 	<!-- end search arewa -->
 	
-	
+	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1Dwi6iYgPO3fmZiPUNvXgl4NZaQtQQV5nA&usqp=CAU');background-size: contain;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<h1>Porquê a <strong style="color:green">20Bet?</strong></h1>
+						<br>
+						<h3 style="color: white;">Lê esta análise que fizemos sobre a <strong style="color: green;">20Bet</strong> e descobre o que há de melhor sobre a mesma.</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- single article section -->
 	<div class="mt-150 mb-150">
 		<div class="container">
@@ -137,93 +120,101 @@
 				<div class="col-lg-8">
 					<div class="single-article-section">
 						<div class="single-article-text">
-							<div id="image_url" class="single-artcile-bg" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png');"></div>
-							<p class="blog-meta">
-								<span id="date" class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
+							<h1 id="title">20Bet</h1>
+							<div class="row" style="margin: 10px 0px 20px 0px;">
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/20ebt1.png" alt="" width="200px"></div>
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/20ebt2.png" alt=""width="200px"></div>
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/20ebt3.png" alt=""width="200px"></div>
+							</div>
+							<p id="description">A casa de apostas 20Bet tem vindo a crescer bastante e a ficar cada vez mais conhecida no mundo dos apostadores. Uma casa que oferece uma enorme liberdade nas suas apostas desportivas online, e que oferece Live-Streaming de todos os jogos, certamente merece a oportunidade dos apostadores!</p>
+							<h2>Bónus de Boas-Vindas</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/photo_2023-03-10_16-31-51.jpg" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>Ao criares conta e depositares na 20Bet pelo "botão" abaixo, assim que fizeres o teu primeiro depósito o mesmo será a dobrar. Exatamente, se depositares 20€ irás receber 40€, se depositares 50€ irás receber 100€, e assim sucessivamente! </p>
+							<br>
+							<h2>Como ter direito ao Bónus Inicial?</h2>
+							<p>Para ter direito ao primeiro depósito a dobrar tem que criar a sua conta pelo seguinte link:</p>
+							<a class="cart-btn" href="">BÓNUS BOAS-VINDAS 20BET</a><br>
+							<br>
+							<h2>Bónus Semanal</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/photo_2023-03-10_16-32-50.jpg" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>Se criares a tua conta pelo nosso link, estarás também habilitado ao bónus semanal da 20Bet! Esta é uma grande oferta, em que todos os sábados o teu depósito é a dobrar (até 100€)!</p>
+							<br>
+							<h2>Torneios com prémios até 1000€</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/previsoes.png" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>A verdade é que uma das maiores vantagens que irá encontrar na 20Bet é que esta casa de apostas está a oferecer regularmente prémios e novos bónus. Exemplo disso é que, caso tenha depositado pelo menos 20€ nos últimos 5 dias, estará no direito de participar nos torneios de previsões. Caso ganhe, irá ganhar até 1000€ em apostas grátis, sem qualquer risco!
 							</p>
-							<h2 id="title">Pomegranate can prevent heart disease</h2>
-							<p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint soluta, similique quidem fuga vel voluptates amet doloremque corrupti. Perferendis totam voluptates eius error fuga cupiditate dolorum? Adipisci mollitia quod labore aut natus nobis. Rerum perferendis, nobis hic adipisci vel inventore facilis rem illo, tenetur ipsa voluptate dolorem, cupiditate temporibus laudantium quidem recusandae expedita dicta cum eum. Quae laborum repellat a ut, voluptatum ipsa eum. Culpa fugiat minus laborum quia nam!</p>
+							<br>
+							<h2>Métodos de Depósito e Levantamento</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/Screenshot_79_2.png" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>Desde logo, a 20Bet pretende simplificar a experiência de jogo. Por exemplo, a área de depósitos é facilmente acedida desde o primeiro instante, onde verificamos a existência de dezenas de métodos disponíveis.</p>
+								<br>
+							<p>Entre os métodos de depósito que mais agradam os jogadores portugueses, encontram-se o Multibanco, VISA, MasterCard, bem como Skrill ou Neteller.</p>
+								<br>
+							<h2>A 20Bet tem APP?</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/20bet2.jpg" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>A resposta é, sim! A 20Bet tem aplicação para Android e iOS. </p>	
+							<br>
+							<h2>Como instalar app 20Bet em IOS?</h2>
+							<p>A 20bet tem aplicação tanto para Android quanto para iOS. Contudo, a forma de instalar difere entre os sistemas operacionais.</p>
+							<br>
+							<h5>É um processo bastante simples e que nós vamos passar a explicar:</h5>
+							<ul>
+								<li>1º passo: Configurações do iphone, e selecionar "Multimédia e Compras".</li>
+								<li>2º passo: Clicar em "Ver Conta".</li>
+								<li>3º passo: Clicar em "País/Região".</li>
+								<li>4º passo: Alterar a região para CANADÁ.</li>
+								<li>5º passo: Exemplo de morada canadiana que pode ser usada:</li>
+								<img src="assets/img/address.png" alt="">
+								<li>5º passo: Preencher dados pessoas.</li>
+								<li>6º passo: Agora poderá a APP Store e pesquisar pela app da 20bet!</li>
+							</ul>
+							<br>
+							<h5>Depois de instalar a app no seu dispositivo, pode voltar a alterar o "País/Região" sem qualquer problema!</h5>
+							<br>
+							<h2>Prós:</h2>
+							<ul>
+								<li >✅ <strong>Casa bastante completa e em português</strong></li>
+								<li >✅ <strong>Novos bónus e promoções todas as semanas</strong></li>
+								<li >✅ <strong>Rapidez e Segurança nos depósitos e levantamentos</strong></li>
+								<li >✅ <strong>App para iOS e Android</strong></li>
+								<li >✅ <strong>Opção de cashout</strong></li>
+								<li >✅ <strong>Streaming dos jogos</strong></li>
+							</ul>
+							<br>
+							<h2>Contras:</h2>
+							<ul>
+								<li>❌ <strong>App recente, ainda com alguns "bugs"</strong></li>
+								<br>
+								<br>
+							</ul>
+							<br>
+							<h2>Conclusão</h2>
+							<p>Não restam dúvidas que todo o cuidado é pouco no momento de escolher a melhor casa de apostas online. No entanto, para além das opiniões dos apostadores da casa 20Bet serem maioritariamente positivas, este site de apostas é licenciado internacionalmente. Com ofertas regulares e odds que são excelentes, poderá mesmo ser a casa de apostas ideal para ti!
+							</p>
+							<br>
 							
 						</div>
-
-						<div class="comments-list-wrap">
-							<h3 class="comment-count-title">3 Comments</h3>
-							<div class="comment-list">
-								<div class="single-comment-body">
-									<div class="comment-user-avater">
-										<img src="assets/img/avaters/avatar1.png" alt="">
-									</div>
-									<div class="comment-text-body">
-										<h4>Jenny Joe <span class="comment-date">Aprl 26, 2020</span> <a href="#">reply</a></h4>
-										<p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
-									</div>
-									<div class="single-comment-body child">
-										<div class="comment-user-avater">
-											<img src="assets/img/avaters/avatar3.png" alt="">
-										</div>
-										<div class="comment-text-body">
-											<h4>Simon Soe <span class="comment-date">Aprl 27, 2020</span> <a href="#">reply</a></h4>
-											<p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
-										</div>
-									</div>
-								</div>
-								<div class="single-comment-body">
-									<div class="comment-user-avater">
-										<img src="assets/img/avaters/avatar2.png" alt="">
-									</div>
-									<div class="comment-text-body">
-										<h4>Addy Aoe <span class="comment-date">May 12, 2020</span> <a href="#">reply</a></h4>
-										<p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="comment-template">
-							<h4>Leave a comment</h4>
-							<p>If you have a comment dont feel hesitate to send us your opinion.</p>
-							<form action="index.html">
-								<p>
-									<input type="text" placeholder="Your Name">
-									<input type="email" placeholder="Your Email">
-								</p>
-								<p><textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your Message"></textarea></p>
-								<p><input type="submit" value="Submit"></p>
-							</form>
-						</div>
+						
 					</div>
+					<div class="cart-btn">
+							<a class="cart-btn"  style="margin:0px;text-align: center;height: 100px;width: 300px;font-size: 35px;padding-top: 17px;" href="">BÓNUS 20BET</a><br>
+						</div>
 				</div>
+
+				
 				<div class="col-lg-4">
 					<div class="sidebar-section">
 						<div class="recent-posts">
-							<h4>Recent Posts</h4>
-							<ul>
-								<li><a href="single-news.html">You will vainly look for fruit on it in autumn.</a></li>
-								<li><a href="single-news.html">A man's worth has its season, like tomato.</a></li>
-								<li><a href="single-news.html">Good thoughts bear good fresh juicy fruit.</a></li>
-								<li><a href="single-news.html">Fall in love with the fresh orange</a></li>
-								<li><a href="single-news.html">Why the berries always look delecious</a></li>
-							</ul>
-						</div>
-						<div class="archive-posts">
-							<h4>Archive Posts</h4>
-							<ul>
-								<li><a href="single-news.html">JAN 2019 (5)</a></li>
-								<li><a href="single-news.html">FEB 2019 (3)</a></li>
-								<li><a href="single-news.html">MAY 2019 (4)</a></li>
-								<li><a href="single-news.html">SEP 2019 (4)</a></li>
-								<li><a href="single-news.html">DEC 2019 (3)</a></li>
-							</ul>
-						</div>
-						<div class="tag-section">
-							<h4>Tags</h4>
-							<ul>
-								<li><a href="single-news.html">Apple</a></li>
-								<li><a href="single-news.html">Strawberry</a></li>
-								<li><a href="single-news.html">BErry</a></li>
-								<li><a href="single-news.html">Orange</a></li>
-								<li><a href="single-news.html">Lemon</a></li>
-								<li><a href="single-news.html">Banana</a></li>
+							<h4>Outras análises</h4>
+							<ul id="blogs5">
+								<li><a href="single-análsie_betano.html">Betano.</a></li>
+								<li><a href="single-análsie_solverde.html">Solverde.</a></li>
+								<li><a href="single-análsie_20bet.html">20Bet.</a></li>
+								<li><a href="single-análsie_vemapostar.html">VemApostar.</a></li>
+								<li><a href="single-análsie_esconline.html">EscOnline.</a></li>
+								<li><a href="single-análsie_bettilt.html">Bettilt.</a></li>
+								<li><a href="single-análsie _vave.html">Vave.</a></li>
+								<li><a href="single-análsie_leon.html">Leon.</a></li>
 							</ul>
 						</div>
 					</div>
@@ -232,6 +223,15 @@
 		</div>
 	</div>
 	<!-- end single article section -->
+	<!-- 22Bet
+2º Betano
+3º Solverde
+4º 20Bet
+5º VemApostar
+6º EscOnline
+7º Bettilt
+8º Vave
+9º Leon -->
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -299,7 +299,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box subscribe">
-						<h2 class="widget-title" style="color:red">JOGO RESPONSÁVEL</h2>
+						<h2 class="widget-title" style="color:white">JOGO RESPONSÁVEL</h2>
 						<p>Jogar online a dinheiro pode ser muito divertido, mas sempre há uma chance de poder perder. É por isso que deverá sempre jogar com responsabilidade. Se tiver alguma dúvida sobre problemas de jogo, por favor, obtenha ajuda em BeGambleAware.org.</p>
 					</div>
 				</div>
@@ -308,7 +308,25 @@
 	</div>
 	<!-- end footer -->
 
-	<script src="https://kit.fontawesome.com/f9a7bbed8a.js" crossorigin="anonymous"></script>
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>&copy; 2023 - Melhores Casas Apostas. - Todos os direitos reservados.</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="politica_privacidade.html" target="_blank">Política de Privacidade e Cookies</a></li>
+							<li><a href="#" target="_blank">Termos e condições</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -329,8 +347,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/single-blog.js"></script>
-	<script src="assets/js/analise.js"></script>
+	<script src="https://kit.fontawesome.com/f9a7bbed8a.js" crossorigin="anonymous"></script>
+	<script src="assets/js/overlay.js"></script>
 
 </body>
 </html>

@@ -33,7 +33,11 @@
 
 </head>
 <body>
-	
+
+	<div style="display:none; position: fixed; z-index:999; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8);" onclick="this.style.display = 'none'" id="overlay">
+		<img style="height: 100%; max-height: 70vh; object-fit: contain; position: inherit; top:50%; left:50%; transform: translate(-50%,-50%);" id="imgOverlay" src="" alt="">
+	</div>
+
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -59,48 +63,15 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="#">Home</a>
-									<ul class="sub-menu">
-										<li><a href="index.html">Static Home</a></li>
-										<li><a href="index_2.html">Slider Home</a></li>
-									</ul>
+								<li class="current-list-item"><a href="index.html">Casas de apostas</a>
 								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-										<li><a href="shop.html">Shop</a></li>
-									</ul>
+								
+
+								<li><a href="news.html">Notícias</a>
 								</li>
-								<li><a href="news.html">News</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
-									<ul class="sub-menu">
-										<li><a href="shop.html">Shop</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
-										<li><a href="cart.html">Cart</a></li>
-									</ul>
-								</li>
-								<li>
-									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-									</div>
-								</li>
+								<a></a>
 							</ul>
 						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
 						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
@@ -129,7 +100,7 @@
 	</div>
 	<!-- end search arewa -->
 	
-	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1Dwi6iYgPO3fmZiPUNvXgl4NZaQtQQV5nA&usqp=CAU');">
+	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1Dwi6iYgPO3fmZiPUNvXgl4NZaQtQQV5nA&usqp=CAU');background-size: contain;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
@@ -149,10 +120,15 @@
 				<div class="col-lg-8">
 					<div class="single-article-section">
 						<div class="single-article-text">
-							<div id="image_url" class="single-artcile-bg" style="background-image: url('https://apostas.gazetaesportiva.com/static/wp/2021/10/imagem-destaque-22bet.webp');"></div>
 							<h1 id="title">22BET</h1>
+							<div class="row" style="margin: 10px 0px 20px 0px;">
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/vawsc.png" alt="" width="200px"></div>
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/vawsc.png" alt=""width="200px"></div>
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/vawsc.png" alt=""width="200px"></div>
+							</div>
 							<p id="description">Em primeiro lugar no nosso top, só podia ser a 22Bet. Uma casa muito completa em todos os aspectos, desde a grande variedade de mercados, as excelentes odd's e a grande segurança no que toca a depósitos e a levantamentos.</p>
 							<h2>Bónus de Boas-Vindas</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/bonus-22bet.png" alt="" style="margin: 10px 0px 20px 0px;">
 							<p>A casa de apostas 22Bet oferece um Bónus no primeiro depósito para todos os novos jogadores, em que o primeiro depósito é a duplicar (até um máximo de 122€)</p>
 							<br>
 							<h2>Como ter direito ao Bónus Inicial?</h2>
@@ -160,6 +136,7 @@
 							<a class="cart-btn" href="">BÓNUS 22BET</a><br>
 							<br>
 							<h2>Métodos de Depósito e Levantamento</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/22bet-pagamentos.png" alt="" style="margin: 10px 0px 20px 0px;">
 							<p>Referente aos métodos de depósito e levantamento oferecidos pela 22Bet, destaca-se o Multibanco e o MBWay. De resto, a marca disponibiliza os métodos de depósito e de levantamento dos mais utilizados no mercado nacional e internacional. Exemplo das carteiras eletrónicas (ex: Skrill, Neteller, etc), das transferências bancárias, dos cartões de crédito e muito mais.
 								Em suma, a 22 bet tem mais uma centena de métodos de depósito e levantamentos disponíveis e adapta-se aos principais meios de pagamento de cada país onde está inserido. 
 								Todas as transações, quer seja depósito ou levantamento são feitos com a máxima segurança possível, e é aconselhado que os levantamentos sejam feitos pelo mesmo método que foi usado no depósito.</p>
@@ -200,7 +177,10 @@
 								<br>
 								<br>
 							</ul>
-
+							<br>
+							<h2>Conclusão</h2>
+							<p>O 22Bet é uma das casas de apostas mais completas, mais seguras e que está à mais tempo no mercado. É o nosso Top 1, se tivermos que recomendar apenas uma casa para tu começares a apostar, recomendamos a 22Bet!</p>
+							<br>
 							
 						</div>
 						
@@ -317,6 +297,24 @@
 	</div>
 	<!-- end footer -->
 
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>&copy; 2023 - Melhores Casas Apostas. - Todos os direitos reservados.</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="politica_privacidade.html" target="_blank">Política de Privacidade e Cookies</a></li>
+							<li><a href="#" target="_blank">Termos e condições</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
@@ -339,6 +337,7 @@
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 	<script src="https://kit.fontawesome.com/f9a7bbed8a.js" crossorigin="anonymous"></script>
+	<script src="assets/js/overlay.js"></script>
 
 </body>
 </html>
