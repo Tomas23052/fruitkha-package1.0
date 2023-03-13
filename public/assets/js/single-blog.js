@@ -38,6 +38,7 @@ function renderBlog(blogs){
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',	'November', 'December'];
     blogs.data.forEach(function(blog){
         const date = new Date(blog.__createdtime__)
+        document.getElementById("titleM").innerHTML = blog.title;
         document.getElementById("title").innerHTML = blog.title;
         document.getElementById("description").innerHTML = blog.description
         document.getElementById("titled").innerHTML = "Notícia sobre " + blog.title;
