@@ -1590,6 +1590,8 @@ div.owl-controls, .owl-controls div {
   line-height: 60px;
   border: 2px green dotted;
   border-radius: 999px;
+  padding-left: 2px;
+  padding-top: 1px;
 }
 
 /* -----------------------------------------------------------------------------

@@ -382,7 +382,12 @@
 
 	.hero-area div.hero-form {
 		right: 0;
-		margin: 0 ;
+		margin: 0;
+	
+	}
+
+	.pagtitle{
+		padding-top: 70px;
 	}
 
 	.hero-btns a.boxed-btn {

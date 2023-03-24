@@ -7,10 +7,11 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Single News</title>
+	<title>Análise IVIBet | Top Casas de Apostas</title>
+	<link rel="icon" type="image/png" href="assets/img/iconfav.png">
 
+	<script src="https://kit.fontawesome.com/f9a7bbed8a.js" crossorigin="anonymous"></script>
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
@@ -33,7 +34,11 @@
 
 </head>
 <body>
-	
+
+	<div style="display:none; position: fixed; z-index:999; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8);" onclick="this.style.display = 'none'" id="overlay">
+		<img style="height: 100%; max-height: 70vh; object-fit: contain; position: inherit; top:50%; left:50%; transform: translate(-50%,-50%);" id="imgOverlay" src="" alt="">
+	</div>
+
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -51,7 +56,7 @@
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="index.html">
-								<img src="assets/img/logo.png" alt="">
+								<img src="assets/img/iconT.png" alt="">
 							</a>
 						</div>
 						<!-- logo -->
@@ -59,11 +64,11 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="index.html">Casas de apostas</a>
+								<li class="current-list-item"><a href="index.html"><i class="fa fa-futbol-o" style="color: green;"></i> Casas de apostas</a>
 								</li>
 								
 
-								<li><a href="news.html">Notícias</a>
+								<li><a href="news.html"><i class="fa fa-newspaper-o "></i> Notícias</a>
 								</li>
 								<a></a>
 							</ul>
@@ -96,7 +101,19 @@
 	</div>
 	<!-- end search arewa -->
 	
-	
+	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1Dwi6iYgPO3fmZiPUNvXgl4NZaQtQQV5nA&usqp=CAU');background-size: contain;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<h1>Porquê a <strong style="color:green">IVIBet?</strong></h1>
+						<br>
+						<h3 style="color: white;">Lê esta análise que fizemos sobre a <strong style="color: green;">IVIBet</strong> e descobre o que há de melhor sobre a mesma.</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- single article section -->
 	<div class="mt-150 mb-150">
 		<div class="container">
@@ -104,93 +121,75 @@
 				<div class="col-lg-8">
 					<div class="single-article-section">
 						<div class="single-article-text">
-							<div id="image_url" class="single-artcile-bg" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png');"></div>
-							<p class="blog-meta">
-								<span id="date" class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
-							</p>
-							<h2 id="title">Pomegranate can prevent heart disease</h2>
-							<p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint soluta, similique quidem fuga vel voluptates amet doloremque corrupti. Perferendis totam voluptates eius error fuga cupiditate dolorum? Adipisci mollitia quod labore aut natus nobis. Rerum perferendis, nobis hic adipisci vel inventore facilis rem illo, tenetur ipsa voluptate dolorem, cupiditate temporibus laudantium quidem recusandae expedita dicta cum eum. Quae laborum repellat a ut, voluptatum ipsa eum. Culpa fugiat minus laborum quia nam!</p>
+							<h1 id="title">IVIBet</h1>
+							<div class="row" style="margin: 10px 0px 20px 0px;">
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/ivi1.png" alt="" width="200px"></div>
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/ivi2.png" alt=""width="200px"></div>
+								<div class="col"><img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/ivi3.png" alt=""width="200px"></div>
+							</div>
+							<p id="description">Talvez a casa de apostas com menos "nome" de toda a nossa lista, mas acreditem que a Ivibet veio para ficar! Das casas com as melh Tudo porque as IviBet odds não são prejudicadas sempre que um jogo entre ao vivo, ao contrário do que acontece com a maioria das casas de apostas licenciadas em Portugal.</p>
+							<h2>Bónus de Boas-Vindas</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/Screenshot_88_2.png" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>Ao criares conta e depositares na 20Bet pelo "botão" abaixo, podes selecionar o Bónus de "Casino" que te dá o primeiro depósito a DOBRAR (máximo 100€) +120 Rodadas Grátis na Slot Bigger Bass Bonanza. Se selecionares o Bónus de "Desporto", tens direito ao primeiro depósito a DOBRAR até um máximo de 150€.</p>
+							<br>
+							<h2>Como ter direito ao Bónus Inicial?</h2>
+							<p>Para ter direito ao primeiro depósito a dobrar tem que criar a sua conta pelo seguinte link:</p>
+							<a class="cart-btn" href="https://bit.ly/ivibetbonusboasvindas">BÓNUS BOAS-VINDAS IVIBET</a><br>
+							<br>
+							<h2>Bónus Semanal</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/Screenshot_89_1.png" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>Se criares a tua conta pelo nosso link, estarás também habilitado ao bónus semanal da IVIBet! Esta é uma grande oferta, em que todos as sextas-feiras, o teu depósito (tem que ser superior a 20€) tem um aumento de 50%, por exemplo, se depositares 100€ recebes 150€ e ainda +50 Rodadas Grátis na slot "Empty the Bank"!</p>
+							<br>
+							<h2>Outros Bónus e Promoções</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/Screenshot_90_3.png" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>A IVIBet tem sempre novos bónus e novas promoções disponíveis para os seus jogadores.</p>
+							<br>
+							<h2>Métodos de Depósito e Levantamento</h2>
+							<img onclick="overlayImg(this.src)" src="https://www.linkpicture.com/q/Screenshot_91_1.png" alt="" style="margin: 10px 0px 20px 0px;">
+							<p>Desde logo, a IVIBet pretende simplificar a experiência de jogo. Por exemplo, a área de depósitos é facilmente acedida desde o primeiro instante, onde verificamos a existência de dezenas de métodos disponíveis.</p>
+							<br>
+							<p>Entre os métodos de depósito que mais agradam os jogadores portugueses, encontram-se o Multibanco, VISA, MasterCard, bem como Skrill ou Neteller.</p>
+							<br>
+							<h2>Prós:</h2>
+							<ul>
+								<li >✅ <strong>Bónus e promoções todas as semanas</strong></li>
+								<li >✅ <strong>Rapidez e Segurança nos depósitos e levantamentos</strong></li>
+								<li >✅ <strong>Casino ao Vivo</strong></li>
+							</ul>
+							<br>
+							<h2>Contras:</h2>
+							<ul>
+								<li>❌ <strong>Ainda não tem APP</strong></li>
+								<br>
+								<br>
+							</ul>
+							<br>
+							<h2>Conclusão</h2>
+							<p>Não restam dúvidas que a IVIBet é uma casa de apostas confiável e que pretende chamar a atenção dos jogadores logo de início com as suas excelentes ofertas e excelentes bónus!</p>
+							<br>
 							
 						</div>
-
-						<div class="comments-list-wrap">
-							<h3 class="comment-count-title">3 Comments</h3>
-							<div class="comment-list">
-								<div class="single-comment-body">
-									<div class="comment-user-avater">
-										<img src="assets/img/avaters/avatar1.png" alt="">
-									</div>
-									<div class="comment-text-body">
-										<h4>Jenny Joe <span class="comment-date">Aprl 26, 2020</span> <a href="#">reply</a></h4>
-										<p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
-									</div>
-									<div class="single-comment-body child">
-										<div class="comment-user-avater">
-											<img src="assets/img/avaters/avatar3.png" alt="">
-										</div>
-										<div class="comment-text-body">
-											<h4>Simon Soe <span class="comment-date">Aprl 27, 2020</span> <a href="#">reply</a></h4>
-											<p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
-										</div>
-									</div>
-								</div>
-								<div class="single-comment-body">
-									<div class="comment-user-avater">
-										<img src="assets/img/avaters/avatar2.png" alt="">
-									</div>
-									<div class="comment-text-body">
-										<h4>Addy Aoe <span class="comment-date">May 12, 2020</span> <a href="#">reply</a></h4>
-										<p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="comment-template">
-							<h4>Leave a comment</h4>
-							<p>If you have a comment dont feel hesitate to send us your opinion.</p>
-							<form action="index.html">
-								<p>
-									<input type="text" placeholder="Your Name">
-									<input type="email" placeholder="Your Email">
-								</p>
-								<p><textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your Message"></textarea></p>
-								<p><input type="submit" value="Submit"></p>
-							</form>
-						</div>
+						
 					</div>
+					<div class="cart-btn">
+							<a class="cart-btn"  style="margin:0px;text-align: center;height: 100px;width: 300px;font-size: 35px;padding-top: 17px;" href="https://bit.ly/ivibetbonusboasvindas">BÓNUS IVIBET</a><br>
+						</div>
 				</div>
+
+				
 				<div class="col-lg-4">
 					<div class="sidebar-section">
 						<div class="recent-posts">
-							<h4>Recent Posts</h4>
-							<ul>
-								<li><a href="single-news.html">You will vainly look for fruit on it in autumn.</a></li>
-								<li><a href="single-news.html">A man's worth has its season, like tomato.</a></li>
-								<li><a href="single-news.html">Good thoughts bear good fresh juicy fruit.</a></li>
-								<li><a href="single-news.html">Fall in love with the fresh orange</a></li>
-								<li><a href="single-news.html">Why the berries always look delecious</a></li>
-							</ul>
-						</div>
-						<div class="archive-posts">
-							<h4>Archive Posts</h4>
-							<ul>
-								<li><a href="single-news.html">JAN 2019 (5)</a></li>
-								<li><a href="single-news.html">FEB 2019 (3)</a></li>
-								<li><a href="single-news.html">MAY 2019 (4)</a></li>
-								<li><a href="single-news.html">SEP 2019 (4)</a></li>
-								<li><a href="single-news.html">DEC 2019 (3)</a></li>
-							</ul>
-						</div>
-						<div class="tag-section">
-							<h4>Tags</h4>
-							<ul>
-								<li><a href="single-news.html">Apple</a></li>
-								<li><a href="single-news.html">Strawberry</a></li>
-								<li><a href="single-news.html">BErry</a></li>
-								<li><a href="single-news.html">Orange</a></li>
-								<li><a href="single-news.html">Lemon</a></li>
-								<li><a href="single-news.html">Banana</a></li>
+							<h4>Outras análises</h4>
+							<ul id="blogs5">
+								<li><a href="single-análsie_betano.html">Betano.</a></li>
+								<li><a href="single-análise_betwinner.html">BetWinner.</a></li>
+								<li><a href="single-análsie_20bet.html">20Bet.</a></li>
+								<li><a href="single-análsie_vemapostar.html">VemApostar.</a></li>
+								<li><a href="single-análsie_solverde.html">Solverde.</a></li>
+								<li><a href="single-análsie_bettilt.html">Bettilt.</a></li>
+								<li><a href="single-análsie_bet22.html">22Bet.</a></li>
+								<li><a href="single-análsie_leon.html">Leon.</a></li>
 							</ul>
 						</div>
 					</div>
@@ -199,6 +198,15 @@
 		</div>
 	</div>
 	<!-- end single article section -->
+	<!-- 22Bet
+2º Betano
+3º Solverde
+4º 20Bet
+5º VemApostar
+6º EscOnline
+7º Bettilt
+8º Vave
+9º Leon -->
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -236,8 +244,8 @@
 					<div class="footer-box about-widget">
 						<h2 class="widget-title"><img src="assets/img/iconT.png" style="width: 70%;" alt=""></h2>
 						<ul style="display: inline;">
-							<li style="display: inline; padding:5px;"><i class="fa-brands fa-facebook	fa-4x"></i></li> 
-							<li style="display: inline;"><i class="fa-brands fa-instagram	fa-4x"></i></li> 
+							<li style="display: inline; padding:5px;"><a href="https://www.facebook.com/profile.php?id=100090554936319&mibextid=LQQJ4d"><i class="fa-brands fa-facebook	fa-4x"></i></a></li> 
+							<li style="display: inline;"><a href="https://instagram.com/top.casasdeapostas?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram	fa-4x"></i></a></li> 
 						</ul>
 					</div>
 				</div>
@@ -256,17 +264,17 @@
 					<div class="footer-box pages">
 						<h2 class="widget-title">Casas</h2>
 						<ul>
-							<li><a href="index.html">22Bet</a></li>
-							<li><a href="about.html">Betano</a></li>
-							<li><a href="services.html">Bettilt</a></li>
-							<li><a href="news.html">Solverde</a></li>
-							<li><a href="contact.html">Leon</a></li>
+							<li><a href="https://bit.ly/22betbonusboasvindas">22Bet</a></li>
+							<li><a href="https://bit.ly/betanobonusboasvindass">Betano</a></li>
+							<li><a href="https://bit.ly/bettiltbonusboasvindas">Bettilt</a></li>
+							<li><a href="https://bit.ly/22betbonusboasvindas">Solverde</a></li>
+							<li><a href="https://bit.ly/leonbonusboasvindas">Leon</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box subscribe">
-						<h2 class="widget-title" style="color:red">JOGO RESPONSÁVEL</h2>
+						<h2 class="widget-title" style="color:white">JOGO RESPONSÁVEL</h2>
 						<p>Jogar online a dinheiro pode ser muito divertido, mas sempre há uma chance de poder perder. É por isso que deverá sempre jogar com responsabilidade. Se tiver alguma dúvida sobre problemas de jogo, por favor, obtenha ajuda em BeGambleAware.org.</p>
 					</div>
 				</div>
@@ -293,7 +301,7 @@
 		</div>
 	</div>
 
-	<script src="https://kit.fontawesome.com/f9a7bbed8a.js" crossorigin="anonymous"></script>
+	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -314,8 +322,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/single-blog.js"></script>
-	<script src="assets/js/analise.js"></script>
+	<script src="https://kit.fontawesome.com/f9a7bbed8a.js" crossorigin="anonymous"></script>
+	<script src="assets/js/overlay.js"></script>
 
 </body>
 </html>
