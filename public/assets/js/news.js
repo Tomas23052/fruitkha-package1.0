@@ -13,14 +13,14 @@ function renderBlog(blogs){
         blogsC.innerHTML += `
         <div class="col-lg-4 col-md-6">
         <div class="single-latest-news">
-            <a onclick="getID('${blog.id}')"href="single-news.html?id=${blog.id}"><div id="${blog.id}" class="latest-news-bg news-bg-1" style="background-image: url('${blog.image_url}');"></div></a>
+            <a onclick="getID('${blog.id}')"href="notícia.html?id=${blog.id}"><div id="${blog.id}" class="latest-news-bg news-bg-1" style="background-image: url('${blog.image_url}');"></div></a>
             <div class="news-text-box">
-                <h3><a href="single-news.html">${blog.title}.</a></h3>
+                <h3><a href="notícia.html">${blog.title}.</a></h3>
                 <p class="blog-meta">
                     <span class="date"><i class="fas fa-calendar"></i> ${date.getDate() + ' ' + months[date.getMonth()] + ', ' + date.getFullYear()}</span>
                 </p>
                 <p class="excerpt">${descBlog(blog.description)}</p>
-                <a href="single-news.html?id=${blog.id}" id="readmore" class="read-more-btn">Ler mais <i class="fas fa-angle-right"></i></a>
+                <a href="notícia.html?id=${blog.id}" id="readmore" class="read-more-btn">Ler mais <i class="fas fa-angle-right"></i></a>
                 </div>
         </div>`
     })
@@ -29,7 +29,6 @@ function renderBlog(blogs){
 function getID(blog_id){
     var id = blog_id;
     sessionStorage.setItem("id", id)
-    console.log(id)
 }
 
 function descBlog(blog_string){

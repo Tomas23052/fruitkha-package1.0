@@ -6,7 +6,6 @@ const params = new Proxy(new URLSearchParams(window.location.search),{
 });
 
 let value = params.id;
-console.log(params.id)
 
 function fetchBlogs() {
     fetch('https://apidiogo-production.up.railway.app/blogs/' + params.id)
@@ -27,7 +26,7 @@ function renderBlog5(blogs5){
 blogC.innerHTML=""
 blogs5.data.forEach(function(blog5){
     blogC.innerHTML +=`
-    <li><a onclick="getID('${blog5.id}')" href="single-news.html?id=${blog5.id}">${blog5.title}.</a></li>
+    <li><a onclick="getID('${blog5.id}')" href="notícia.html?id=${blog5.id}">${blog5.title}.</a></li>
     `
 })
 
