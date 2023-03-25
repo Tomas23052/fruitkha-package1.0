@@ -15,7 +15,7 @@ function renderBlog(blogs){
         <div class="single-latest-news">
             <a onclick="getID('${blog.id}')"href="notícia.html?id=${blog.id}"><div id="${blog.id}" class="latest-news-bg news-bg-1" style="background-image: url('${blog.image_url}');"></div></a>
             <div class="news-text-box">
-                <h3><a href="notícia.html">${blog.title}.</a></h3>
+                <h3><a href="notícia.html?id=${blog.id}">${blog.title}.</a></h3>
                 <p class="blog-meta">
                     <span class="date"><i class="fas fa-calendar"></i> ${date.getDate() + ' ' + months[date.getMonth()] + ', ' + date.getFullYear()}</span>
                 </p>
