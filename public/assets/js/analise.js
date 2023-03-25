@@ -9,7 +9,7 @@ function renderBlog5(blogs5){
 blogC.innerHTML=""
 blogs5.data.forEach(function(blog5){
     blogC.innerHTML +=`
-    <li><a onclick="getID('${blog5.id}')" href="single-news.html">${blog5.title}.</a></li>
+    <li><a onclick="getID('${blog5.id}')" href="notícia.html?id=${blog5.id}">${blog5.title}.</a></li>
     `
 })
 }
@@ -17,7 +17,6 @@ blogs5.data.forEach(function(blog5){
 function getID(blog_id){
     var id = blog_id;
     sessionStorage.setItem("id", id)
-    console.log(id)
 }
 
 
