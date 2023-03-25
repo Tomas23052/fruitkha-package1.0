@@ -508,6 +508,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   z-index: 1;
   background-attachment: fixed;
   padding-top: 200px;
+  background-image: url('https://cdn.pixabay.com/photo/2021/10/11/17/36/technology-6701406_960_720.jpg');
 }
 
 .breadcrumb-section:after {
@@ -1372,10 +1373,8 @@ a.mobile-show.search-bar-icon:hover {
 
 ----------------------------------------------------------------------------- */
 .hero-bg {
-  background-image: url(../img/hero-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-image: url('https://images.pexels.com/photos/47354/the-ball-stadion-football-the-pitch-47354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size:cover;
 }
 
 .hero-text {
