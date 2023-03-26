@@ -481,9 +481,6 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   margin-bottom: 80px;
 }
 
-.breadcrumb-bg {
-  background-image: url(../img/breadcrumb-bg.jpg);
-}
 
 .breadcrumb-text p {
   color: green;
@@ -503,12 +500,10 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 .breadcrumb-section {
   padding: 150px 0;
   background-size: cover;
-  background-position: center center;
+  background-position:center;
   position: relative;
   z-index: 1;
-  background-attachment: fixed;
   padding-top: 200px;
-  background-image: url('https://cdn.pixabay.com/photo/2021/10/11/17/36/technology-6701406_960_720.jpg');
 }
 
 .breadcrumb-section:after {
@@ -1374,6 +1369,7 @@ a.mobile-show.search-bar-icon:hover {
 ----------------------------------------------------------------------------- */
 .hero-bg {
   background-size:cover;
+  background-position: center center;
 }
 
 .hero-text {

@@ -268,8 +268,12 @@
 	}
 
 	.breadcrumb-section{
-		background-size: auto;
-		background-repeat:space;
+		padding: 150px 0;		
+  		position: relative;
+		background-position: bottom;
+  		z-index: 1;
+ 		padding-top: 200px;
+	
 	}
 
 	.copyright p {
@@ -393,6 +397,7 @@
 	
 	.hero-bg {
 		background-size: cover;
+		padding-bottom: 20px;
 	}
 
 	.pagtitle{
